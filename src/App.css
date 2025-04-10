@@ -1,0 +1,141 @@
+.container-home {
+  padding-top: 80px;
+  min-height: 100vh;
+  width: 100vw;
+  background-color: #121212;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.imagenAlumnos {
+  position: relative;
+  width: 100vw;
+  height: 450px;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.imagenAlumnos img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.imagenAlumnos p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 4rem;
+  font-weight: bold;
+  color: #fff;
+  -webkit-text-stroke: 2px black;
+  text-align: center;
+  margin: 0;
+}
+
+.panelBotones {
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #313131;
+  padding: 50px 20px;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.panelBotones p {
+  text-align: center;
+  font-size: 18px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.panelBotones > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 300px;
+}
+
+.login,
+.registro {
+  padding: 12px 20px;
+  font-weight: bold;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.3s;
+  text-align: center;
+}
+
+.login {
+  background-color: #ff5c5c;
+  color: #fff;
+}
+
+.login:hover {
+  background-color: #e64747;
+}
+
+.registro {
+  background-color: #fff;
+  color: #333;
+}
+
+.registro:hover {
+  background-color: #e6e6e6;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap; /* permite que baje si no cabe */
+  padding: 1em 2em;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.titulo {
+  font-size: 24px;
+  font-weight: bold;
+  flex: 1;
+  min-width: 200px;
+  white-space: nowrap;
+}
+
+.links {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+  justify-content: flex-end;
+  flex: 1;
+  min-width: 200px;
+  padding-right: 50px;
+}
+
+.links li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.links li a:hover {
+  color: #ccc;
+}
