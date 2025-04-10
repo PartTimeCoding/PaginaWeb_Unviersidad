@@ -9,8 +9,7 @@ const RegistroNuevo = () => {
   const [formData, setFormData] = useState({
     nombre: "",
     apellido: "",
-    usuario: "",
-    contrasena: "",
+    password: "",
     fechaNacimiento: "",
     direccion: "",
     correo: "",
@@ -30,8 +29,7 @@ const RegistroNuevo = () => {
     const {
       nombre,
       apellido,
-      usuario,
-      contrasena,
+      password,
       fechaNacimiento,
       direccion,
       correo,
@@ -41,8 +39,7 @@ const RegistroNuevo = () => {
     if (
       !nombre ||
       !apellido ||
-      !usuario ||
-      !contrasena ||
+      !password ||
       !fechaNacimiento ||
       !direccion ||
       !correo ||

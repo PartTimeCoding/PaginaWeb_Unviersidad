@@ -45,67 +45,6 @@ const Confirmacion = () => {
           ¡Registro Completo! Bienvenido a la Universidad.
         </div>
 
-        <h3 style={{ marginBottom: "10px" }}>Tus Cursos Inscritos</h3>
-        <table
-          style={{
-            width: "100%",
-            borderCollapse: "collapse",
-            marginBottom: "20px",
-          }}
-        >
-          <thead>
-            <tr style={{ backgroundColor: "#f2f2f2", textAlign: "left" }}>
-              <th style={{ padding: "10px", border: "1px solid #ccc" }}>
-                Código
-              </th>
-              <th style={{ padding: "10px", border: "1px solid #ccc" }}>
-                Nombre del Curso
-              </th>
-              <th style={{ padding: "10px", border: "1px solid #ccc" }}>
-                Horario
-              </th>
-              <th style={{ padding: "10px", border: "1px solid #ccc" }}>
-                Créditos
-              </th>
-              <th style={{ padding: "10px", border: "1px solid #ccc" }}>
-                Profesor
-              </th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td style={{ padding: "10px", border: "1px solid #ccc" }}>
-                CS101
-              </td>
-              <td style={{ padding: "10px", border: "1px solid #ccc" }}>
-                Introducción a la Programación
-              </td>
-              <td style={{ padding: "10px", border: "1px solid #ccc" }}>
-                Lun/Mié 10:00–11:30 AM
-              </td>
-              <td style={{ padding: "10px", border: "1px solid #ccc" }}>3</td>
-              <td style={{ padding: "10px", border: "1px solid #ccc" }}>
-                Dr. Smith
-              </td>
-            </tr>
-            <tr>
-              <td style={{ padding: "10px", border: "1px solid #ccc" }}>
-                MATH201
-              </td>
-              <td style={{ padding: "10px", border: "1px solid #ccc" }}>
-                Cálculo I
-              </td>
-              <td style={{ padding: "10px", border: "1px solid #ccc" }}>
-                Mar/Jue 1:00–2:30 PM
-              </td>
-              <td style={{ padding: "10px", border: "1px solid #ccc" }}>4</td>
-              <td style={{ padding: "10px", border: "1px solid #ccc" }}>
-                Dr. Johnson
-              </td>
-            </tr>
-          </tbody>
-        </table>
-
         <div style={{ textAlign: "center" }}>
           <button
             onClick={() => navigate("/")}

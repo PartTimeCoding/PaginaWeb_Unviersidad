@@ -1,4 +1,30 @@
-/* SeleccionCursos.css */
+.form-nuevo-curso {
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form-nuevo-curso input,
+.form-nuevo-curso textarea {
+  padding: 8px;
+  font-size: 14px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.titulo-formulario {
+  font-size: 1.5rem;
+  color: #333;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  border-left: 4px solid #007bff;
+  padding-left: 10px;
+}
 
 .seleccion-container {
     min-height: 100vh;
